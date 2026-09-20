@@ -270,8 +270,8 @@ int main() {
 		case 8:
 		{
 			pair<int, int> t = battle(x);
-			u = t.first;
-			v = t.second;
+			u += t.first;
+			v += t.second;
 		}
 		break;
 		case 9:leaderboard(u, v); break;
